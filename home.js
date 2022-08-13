@@ -20,5 +20,11 @@ function bgmVol() {
     audio.volume = 0.2;
 }
 
+function playBgm() {
+    audio.play();
+}
+
 setTimeout(() => bgmVol(), 500);
 setTimeout(() => bgmVol(), 1000);
+
+window.addEventListener('load', )
