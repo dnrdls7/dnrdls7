@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-page">
+        <div class="header">
+            <div id="timenow">시간 들어갈 곳</div>
+            <div class="title">
+                <div class="title-home" style="display:none">Home</div>
+                <div class="title-about">About</div>
+                <div class="title-like" style="display:none">Like</div>
+            </div>
+            <div id="bgm">
+                <figcaption>
+                    <i class="fa-solid fa-music"></i>
+                    = 꿈처럼 <벤>
+                </figcaption>
+                <audio id="bgm1" autoplay controls loop src="bgm/bgm2.mp3">
+            </div>
+        </div>
+        <div class="menu">
+            <div id="img-grid"><img src="img/home.jpg"></div>
+            <div id="intro-grid">
+                <div id="intro1">Jung Jaeuk</div>
+                <div id="intro2">정재욱</div>
+            </div>
+            <div id="menuBar">
+                <div><a href="home.html">Home</a></div>
+                <div><a href="about.html">About</a></div>
+                <div><a href="like.html">Like</a></div>
+            </div>
+        </div>
+        <div class="content">
+                <div class="content-home" style="display:none">
+                    home에 들어갈 내용
+                </div>
+                <div class="content-about">
+                    <div class="title">introduce</div>
+                    <div class="about-item1">
+                        <p> 안녕하세요. Wecode 38기 정재욱입니다. <i class="fa-solid fa-face-laugh"></i></p>
+                        <p> 전기전자과를 전공해서 연구용 실험기기 연구소에서 일을 했었습니다.<br>
+                            F/W 연구원으로 S/W를 처음 접하게 되었고, 관심이 생겨 Wecode에 오게 되었습니다.
+                        </p>
+                        <p> 늦은 나이지만 열심히 배우겠습니다. 잘 부탁드립니다!!!</p> 
+                    </div>
+                    <div class="about-img"><img src="img/about.gif"></div>
+                </div>
+                <div class="content-like" style="display:none">
+                    like에 들어갈 내용
+                </div>
+        </div>
+        <div class="footer">
+            <div class="icons">
+                <div class="mail">
+                    <a target="_blank" href="mailto:dnrdls77@gmail.com" class="fa-regular fa-envelope"></a>
+                </div>
+                <div class="github">
+                    <a target="_blank" href="https://github.com/dnrdls7" class="fa-brands fa-github"></a>
+                </div>
+                <div class="blog">
+                    <a target="_blank" href="https://velog.io/@dnrdls7" class="fa-solid fa-blog"></a>
+                </div>
+            </div>
+            <div class="text">
+                <p>© 2022 - dnrdls7</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/803c2e6090.js" crossorigin="anonymous"></script>
+    <script src="home.js"></script>
+</body>
+</html>

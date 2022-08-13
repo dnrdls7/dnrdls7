@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-page">
+        <div class="header">
+            <div id="timenow">시간 들어갈 곳</div>
+            <div class="title">
+                <div class="title-home" style="display:none">Home</div>
+                <div class="title-about"style="display:none">About</div>
+                <div class="title-like">Like</div>
+            </div>
+            <div id="bgm">
+                <figcaption>
+                    <i class="fa-solid fa-music"></i>
+                    = 미안해 <양다일>
+                </figcaption>
+                <audio id="bgm1" autoplay controls loop src="bgm/bgm3.mp3">
+            </div>
+            <div><button onclick="bgmVol()" type="button">1</button> </div>
+        </div>
+        <div class="menu">
+            <div id="img-grid"><img src="img/home.jpg"></div>
+            <div id="intro-grid">
+                <div id="intro1">Jung Jaeuk</div>
+                <div id="intro2">정재욱</div>
+            </div>
+            <div id="menuBar">
+                <div><a href="home.html">Home</a></div>
+                <div><a href="about.html">About</a></div>
+                <div><a href="like.html">Like</a></div>
+            </div>
+        </div>
+        <div class="content">
+                <div class="content-home" style="display:none">
+                    home에 들어갈 내용
+                </div>
+                <div class="content-about" style="display:none">
+                    about에 들어갈 내용
+                </div>
+                <div class="content-like">
+                    <div class="title">favorite things</div>
+                    <div class="like-item" id="like-item1">
+                        <i class="fa-solid fa-dog"></i>
+                        <p>dog</p>
+                    </div>
+                    <div id="like-item2-1"><img src="img/home.jpg"></div>
+                    <div id="like-item2-2"><img src="img/like1-1.jpg"></div>
+                    <div id="like-item2-3">
+                        <video autoplay muted loop>
+                            <source src="video/dog.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="like-item" id="like-item2">
+                        <i class="fa-solid fa-music"></i>
+                        <p>music</p>
+                    </div>
+                    <div id="like-item3-1"><img src="img/music1.jpg"></div>
+                    <div id="like-item3-2"><img src="img/music2.jpg"></div>
+                    <div id="like-item3-3"><img src="img/music3.jpg"></div>
+                    <div class="like-item" id="like-item3">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <p>drama</p>
+                    </div>
+                    <div id="like-item4-1"><img src="img/drama1.jpg"></div>
+                    <div id="like-item4-2"><img src="img/drama2.jpg"></div>
+                    <div id="like-item4-3"><img src="img/drama3.jpg"></div>
+                </div>
+        </div>
+        <div class="footer">
+            <div class="icons">
+                <div class="mail">
+                    <a target="_blank" href="mailto:dnrdls77@gmail.com" class="fa-regular fa-envelope"></a>
+                </div>
+                <div class="github">
+                    <a target="_blank" href="https://github.com/dnrdls7" class="fa-brands fa-github"></a>
+                </div>
+                <div class="blog">
+                    <a target="_blank" href="https://velog.io/@dnrdls7" class="fa-solid fa-blog"></a>
+                </div>
+            </div>
+            <div class="text">
+                <p>© 2022 - dnrdls7</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/803c2e6090.js" crossorigin="anonymous"></script>
+    <script src="home.js"></script>
+</body>
+</html>
