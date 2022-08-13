@@ -27,4 +27,4 @@ function playBgm() {
 setTimeout(() => bgmVol(), 500);
 setTimeout(() => bgmVol(), 1000);
 
-window.addEventListener('load', )
+window.addEventListener('load', playBgm);
